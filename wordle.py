@@ -80,6 +80,9 @@ def main():
                     new_word += 'x'
             # print the new word
             print(new_word)
+            # print the number of guesses
+            print('Guesses: ' + str(guesses))
+            
             # increment the number of guesses
             guesses += 1
 
